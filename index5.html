@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Expressions françaises</title>
+  <style>
+  body {
+    color: black;
+    padding-top: 3em;
+  }
+  .row {
+    text-align: center;
+  }
+  .row:hover {
+    background-color: #eee;
+  }
+  .row.selected {
+    background-color: #e7e7e7;
+  }
+  .row span.number {
+    display: inline-block;
+    text-align: right;
+    min-width: 3em;
+    margin-right: 0.5em;
+    font-size: smaller;
+  }
+  .row span.phrase {
+    display: inline-block;
+    min-width: 30%;
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: center;
+  }
+  a.big {
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .phrase a {
+    color: black;
+    text-decoration: none;
+  }
+  .phrase a:hover {
+    background-color: #ddd;
+  }
+  button {
+    padding: 0.5ex;
+    font-size: larger;
+  }
+  button#random {
+    position: fixed;
+    left: 1ex;
+    top: 1ex;
+  }
+  span.percent {
+    display: inline-block;
+    font-size: x-small;
+    min-width: 3em;
+    text-align: right;
+  }
+  #navbar {
+    display: inline-block;
+    position: fixed;
+    top: 1ex;
+    right: 1ex;
+    font-size: larger;
+  }
+  </style>
+  <script>
+  function jumpToRandom() {
+    let rows = document.querySelectorAll('.row');
+    let row = rows[ Math.floor( Math.random()*rows.length ) ];
+    row.classList.add("selected");
+    row.scrollIntoView({behaviour:"smooth", block:"center"});
+  }
+  </script>
+</head>
+<body>
+<button id="random" onclick="jumpToRandom()">🎲au hasard</button>
+
+<div id="navbar">
+<button onclick="location.href='index4.html'">plus courtes</button>
+<button onclick="location.href='index6.html'">plus longues</button>
+</div>
+<div class="row" id="row1">
+<span class="number">1</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/il#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: il">il</a> <a href="https://fr.wiktionary.org/wiki/n%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: n'">n'</a><a href="https://fr.wiktionary.org/wiki/y#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: y">y</a> <a href="https://fr.wiktionary.org/wiki/a#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: a">a</a> <a href="https://fr.wiktionary.org/wiki/pas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: pas">pas</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/il_n%27y_a_pas_de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="il n'y a pas de">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/il_n%27y_a_pas_de#French" target="_blank" rel="noopener noreferrer" title="il n'y a pas de">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/il%20n%27y%20a%20pas%20de/french" target="_blank" rel="noopener noreferrer" title="il n'y a pas de">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=il%20n%27y%20a%20pas%20de" target="_blank" rel="noopener noreferrer" title="il n'y a pas de">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">100.0%</span>
+</div>
+
+<div class="row" id="row2">
+<span class="number">2</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/il#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: il">il</a> <a href="https://fr.wiktionary.org/wiki/y#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: y">y</a> <a href="https://fr.wiktionary.org/wiki/a#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: a">a</a> <a href="https://fr.wiktionary.org/wiki/quelque#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: quelque">quelque</a> <a href="https://fr.wiktionary.org/wiki/chose#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: chose">chose</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/il_y_a_quelque_chose#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="il y a quelque chose">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/il_y_a_quelque_chose#French" target="_blank" rel="noopener noreferrer" title="il y a quelque chose">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/il%20y%20a%20quelque%20chose/french" target="_blank" rel="noopener noreferrer" title="il y a quelque chose">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=il%20y%20a%20quelque%20chose" target="_blank" rel="noopener noreferrer" title="il y a quelque chose">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">93.8%</span>
+</div>
+
+<div class="row" id="row3">
+<span class="number">3</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/j%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: j'">j'</a><a href="https://fr.wiktionary.org/wiki/esp%C3%A8re#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: espère">espère</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/vous#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: vous">vous</a> <a href="https://fr.wiktionary.org/wiki/allez#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: allez">allez</a> <a href="https://fr.wiktionary.org/wiki/bien#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: bien">bien</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/j%27esp%C3%A8re_que_vous_allez_bien#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="j'espère que vous allez bien">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/j%27esp%C3%A8re_que_vous_allez_bien#French" target="_blank" rel="noopener noreferrer" title="j'espère que vous allez bien">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/j%27esp%C3%A8re%20que%20vous%20allez%20bien/french" target="_blank" rel="noopener noreferrer" title="j'espère que vous allez bien">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=j%27esp%C3%A8re%20que%20vous%20allez%20bien" target="_blank" rel="noopener noreferrer" title="j'espère que vous allez bien">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">68.8%</span>
+</div>
+
+<div class="row" id="row4">
+<span class="number">4</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/je#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: je">je</a> <a href="https://fr.wiktionary.org/wiki/suis#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: suis">suis</a> <a href="https://fr.wiktionary.org/wiki/en#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: en">en</a> <a href="https://fr.wiktionary.org/wiki/train#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: train">train</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/je_suis_en_train_de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="je suis en train de">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/je_suis_en_train_de#French" target="_blank" rel="noopener noreferrer" title="je suis en train de">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/je%20suis%20en%20train%20de/french" target="_blank" rel="noopener noreferrer" title="je suis en train de">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=je%20suis%20en%20train%20de" target="_blank" rel="noopener noreferrer" title="je suis en train de">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">68.8%</span>
+</div>
+
+<div class="row" id="row5">
+<span class="number">5</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a> <a href="https://fr.wiktionary.org/wiki/fais#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: fais">fais</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/qu%27est_ce_que_tu_fais#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu fais">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/qu%27est_ce_que_tu_fais#French" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu fais">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/qu%27est%20ce%20que%20tu%20fais/french" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu fais">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=qu%27est%20ce%20que%20tu%20fais" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu fais">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">62.5%</span>
+</div>
+
+<div class="row" id="row6">
+<span class="number">6</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/y#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: y">y</a> <a href="https://fr.wiktionary.org/wiki/a#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: a">a</a> <a href="https://fr.wiktionary.org/wiki/quelque#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: quelque">quelque</a> <a href="https://fr.wiktionary.org/wiki/chose#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: chose">chose</a> <a href="https://fr.wiktionary.org/wiki/qui#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qui">qui</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/y_a_quelque_chose_qui#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="y a quelque chose qui">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/y_a_quelque_chose_qui#French" target="_blank" rel="noopener noreferrer" title="y a quelque chose qui">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/y%20a%20quelque%20chose%20qui/french" target="_blank" rel="noopener noreferrer" title="y a quelque chose qui">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=y%20a%20quelque%20chose%20qui" target="_blank" rel="noopener noreferrer" title="y a quelque chose qui">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">62.5%</span>
+</div>
+
+<div class="row" id="row7">
+<span class="number">7</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/je#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: je">je</a> <a href="https://fr.wiktionary.org/wiki/ne#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ne">ne</a> <a href="https://fr.wiktionary.org/wiki/sais#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: sais">sais</a> <a href="https://fr.wiktionary.org/wiki/pas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: pas">pas</a> <a href="https://fr.wiktionary.org/wiki/si#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: si">si</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/je_ne_sais_pas_si#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="je ne sais pas si">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/je_ne_sais_pas_si#French" target="_blank" rel="noopener noreferrer" title="je ne sais pas si">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/je%20ne%20sais%20pas%20si/french" target="_blank" rel="noopener noreferrer" title="je ne sais pas si">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=je%20ne%20sais%20pas%20si" target="_blank" rel="noopener noreferrer" title="je ne sais pas si">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">56.2%</span>
+</div>
+
+<div class="row" id="row8">
+<span class="number">8</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a> <a href="https://fr.wiktionary.org/wiki/as#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: as">as</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/qu%27est_ce_que_tu_as#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu as">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/qu%27est_ce_que_tu_as#French" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu as">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/qu%27est%20ce%20que%20tu%20as/french" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu as">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=qu%27est%20ce%20que%20tu%20as" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu as">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">56.2%</span>
+</div>
+
+<div class="row" id="row9">
+<span class="number">9</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/il#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: il">il</a> <a href="https://fr.wiktionary.org/wiki/y#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: y">y</a> <a href="https://fr.wiktionary.org/wiki/a#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: a">a</a> <a href="https://fr.wiktionary.org/wiki/quelque#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: quelque">quelque</a> <a href="https://fr.wiktionary.org/wiki/chose#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: chose">chose</a> <a href="https://fr.wiktionary.org/wiki/qui#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qui">qui</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/il_y_a_quelque_chose_qui#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="il y a quelque chose qui">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/il_y_a_quelque_chose_qui#French" target="_blank" rel="noopener noreferrer" title="il y a quelque chose qui">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/il%20y%20a%20quelque%20chose%20qui/french" target="_blank" rel="noopener noreferrer" title="il y a quelque chose qui">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=il%20y%20a%20quelque%20chose%20qui" target="_blank" rel="noopener noreferrer" title="il y a quelque chose qui">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">50.0%</span>
+</div>
+
+<div class="row" id="row10">
+<span class="number">10</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a> <a href="https://fr.wiktionary.org/wiki/campagne#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: campagne">campagne</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a> <a href="https://fr.wiktionary.org/wiki/jean#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: jean">jean</a>-<a href="https://fr.wiktionary.org/wiki/luc#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: luc">luc</a> <a href="https://fr.wiktionary.org/wiki/m%C3%A9lenchon#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: mélenchon">mélenchon</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/de_campagne_de_jean-luc_m%C3%A9lenchon#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="de campagne de jean-luc mélenchon">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/de_campagne_de_jean-luc_m%C3%A9lenchon#French" target="_blank" rel="noopener noreferrer" title="de campagne de jean-luc mélenchon">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/de%20campagne%20de%20jean-luc%20m%C3%A9lenchon/french" target="_blank" rel="noopener noreferrer" title="de campagne de jean-luc mélenchon">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=de%20campagne%20de%20jean-luc%20m%C3%A9lenchon" target="_blank" rel="noopener noreferrer" title="de campagne de jean-luc mélenchon">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">50.0%</span>
+</div>
+
+<div class="row" id="row11">
+<span class="number">11</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/vous#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: vous">vous</a> <a href="https://fr.wiktionary.org/wiki/avez#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: avez">avez</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/qu%27est_ce_que_vous_avez#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="qu'est ce que vous avez">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/qu%27est_ce_que_vous_avez#French" target="_blank" rel="noopener noreferrer" title="qu'est ce que vous avez">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/qu%27est%20ce%20que%20vous%20avez/french" target="_blank" rel="noopener noreferrer" title="qu'est ce que vous avez">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=qu%27est%20ce%20que%20vous%20avez" target="_blank" rel="noopener noreferrer" title="qu'est ce que vous avez">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">43.8%</span>
+</div>
+
+<div class="row" id="row12">
+<span class="number">12</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a> <a href="https://fr.wiktionary.org/wiki/as#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: as">as</a> <a href="https://fr.wiktionary.org/wiki/fait#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: fait">fait</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/ce_que_tu_as_fait#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="ce que tu as fait">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/ce_que_tu_as_fait#French" target="_blank" rel="noopener noreferrer" title="ce que tu as fait">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/ce%20que%20tu%20as%20fait/french" target="_blank" rel="noopener noreferrer" title="ce que tu as fait">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=ce%20que%20tu%20as%20fait" target="_blank" rel="noopener noreferrer" title="ce que tu as fait">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">43.8%</span>
+</div>
+
+<div class="row" id="row13">
+<span class="number">13</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/alors#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: alors">alors</a> <a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/alors_qu%27est_ce_que_tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="alors qu'est ce que tu">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/alors_qu%27est_ce_que_tu#French" target="_blank" rel="noopener noreferrer" title="alors qu'est ce que tu">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/alors%20qu%27est%20ce%20que%20tu/french" target="_blank" rel="noopener noreferrer" title="alors qu'est ce que tu">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=alors%20qu%27est%20ce%20que%20tu" target="_blank" rel="noopener noreferrer" title="alors qu'est ce que tu">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">43.8%</span>
+</div>
+
+<div class="row" id="row14">
+<span class="number">14</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a> <a href="https://fr.wiktionary.org/wiki/vas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: vas">vas</a> <a href="https://fr.wiktionary.org/wiki/faire#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: faire">faire</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/ce_que_tu_vas_faire#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="ce que tu vas faire">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/ce_que_tu_vas_faire#French" target="_blank" rel="noopener noreferrer" title="ce que tu vas faire">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/ce%20que%20tu%20vas%20faire/french" target="_blank" rel="noopener noreferrer" title="ce que tu vas faire">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=ce%20que%20tu%20vas%20faire" target="_blank" rel="noopener noreferrer" title="ce que tu vas faire">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">43.8%</span>
+</div>
+
+<div class="row" id="row15">
+<span class="number">15</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/il#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: il">il</a> <a href="https://fr.wiktionary.org/wiki/y#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: y">y</a> <a href="https://fr.wiktionary.org/wiki/a#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: a">a</a> <a href="https://fr.wiktionary.org/wiki/plein#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: plein">plein</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/il_y_a_plein_de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="il y a plein de">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/il_y_a_plein_de#French" target="_blank" rel="noopener noreferrer" title="il y a plein de">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/il%20y%20a%20plein%20de/french" target="_blank" rel="noopener noreferrer" title="il y a plein de">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=il%20y%20a%20plein%20de" target="_blank" rel="noopener noreferrer" title="il y a plein de">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">43.8%</span>
+</div>
+
+<div class="row" id="row16">
+<span class="number">16</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/les#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: les">les</a> <a href="https://fr.wiktionary.org/wiki/comptes#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: comptes">comptes</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a> <a href="https://fr.wiktionary.org/wiki/campagne#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: campagne">campagne</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/les_comptes_de_campagne_de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="les comptes de campagne de">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/les_comptes_de_campagne_de#French" target="_blank" rel="noopener noreferrer" title="les comptes de campagne de">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/les%20comptes%20de%20campagne%20de/french" target="_blank" rel="noopener noreferrer" title="les comptes de campagne de">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=les%20comptes%20de%20campagne%20de" target="_blank" rel="noopener noreferrer" title="les comptes de campagne de">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">43.8%</span>
+</div>
+
+<div class="row" id="row17">
+<span class="number">17</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/mais#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: mais">mais</a> <a href="https://fr.wiktionary.org/wiki/je#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: je">je</a> <a href="https://fr.wiktionary.org/wiki/ne#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ne">ne</a> <a href="https://fr.wiktionary.org/wiki/suis#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: suis">suis</a> <a href="https://fr.wiktionary.org/wiki/pas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: pas">pas</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/mais_je_ne_suis_pas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="mais je ne suis pas">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/mais_je_ne_suis_pas#French" target="_blank" rel="noopener noreferrer" title="mais je ne suis pas">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/mais%20je%20ne%20suis%20pas/french" target="_blank" rel="noopener noreferrer" title="mais je ne suis pas">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=mais%20je%20ne%20suis%20pas" target="_blank" rel="noopener noreferrer" title="mais je ne suis pas">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">37.5%</span>
+</div>
+
+<div class="row" id="row18">
+<span class="number">18</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/je#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: je">je</a> <a href="https://fr.wiktionary.org/wiki/peux#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: peux">peux</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/est_ce_que_je_peux#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="est ce que je peux">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/est_ce_que_je_peux#French" target="_blank" rel="noopener noreferrer" title="est ce que je peux">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/est%20ce%20que%20je%20peux/french" target="_blank" rel="noopener noreferrer" title="est ce que je peux">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=est%20ce%20que%20je%20peux" target="_blank" rel="noopener noreferrer" title="est ce que je peux">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">37.5%</span>
+</div>
+
+<div class="row" id="row19">
+<span class="number">19</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a> <a href="https://fr.wiktionary.org/wiki/vas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: vas">vas</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/est_ce_que_tu_vas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="est ce que tu vas">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/est_ce_que_tu_vas#French" target="_blank" rel="noopener noreferrer" title="est ce que tu vas">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/est%20ce%20que%20tu%20vas/french" target="_blank" rel="noopener noreferrer" title="est ce que tu vas">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=est%20ce%20que%20tu%20vas" target="_blank" rel="noopener noreferrer" title="est ce que tu vas">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">37.5%</span>
+</div>
+
+<div class="row" id="row20">
+<span class="number">20</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a> <a href="https://fr.wiktionary.org/wiki/vas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: vas">vas</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/qu%27est_ce_que_tu_vas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu vas">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/qu%27est_ce_que_tu_vas#French" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu vas">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/qu%27est%20ce%20que%20tu%20vas/french" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu vas">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=qu%27est%20ce%20que%20tu%20vas" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu vas">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">37.5%</span>
+</div>
+
+<div class="row" id="row21">
+<span class="number">21</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a> <a href="https://fr.wiktionary.org/wiki/vas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: vas">vas</a> <a href="https://fr.wiktionary.org/wiki/faire#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: faire">faire</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/qu%27est_ce_que_tu_vas_faire#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu vas faire">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/qu%27est_ce_que_tu_vas_faire#French" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu vas faire">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/qu%27est%20ce%20que%20tu%20vas%20faire/french" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu vas faire">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=qu%27est%20ce%20que%20tu%20vas%20faire" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu vas faire">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">37.5%</span>
+</div>
+
+<div class="row" id="row22">
+<span class="number">22</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/il#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: il">il</a> <a href="https://fr.wiktionary.org/wiki/y#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: y">y</a> <a href="https://fr.wiktionary.org/wiki/en#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: en">en</a> <a href="https://fr.wiktionary.org/wiki/a#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: a">a</a> <a href="https://fr.wiktionary.org/wiki/un#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: un">un</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/il_y_en_a_un#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="il y en a un">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/il_y_en_a_un#French" target="_blank" rel="noopener noreferrer" title="il y en a un">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/il%20y%20en%20a%20un/french" target="_blank" rel="noopener noreferrer" title="il y en a un">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=il%20y%20en%20a%20un" target="_blank" rel="noopener noreferrer" title="il y en a un">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">37.5%</span>
+</div>
+
+<div class="row" id="row23">
+<span class="number">23</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/l%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: l'">l'</a><a href="https://fr.wiktionary.org/wiki/actualit%C3%A9#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: actualité">actualité</a> <a href="https://fr.wiktionary.org/wiki/en#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: en">en</a> <a href="https://fr.wiktionary.org/wiki/une#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: une">une</a> <a href="https://fr.wiktionary.org/wiki/dizaine#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: dizaine">dizaine</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/l%27actualit%C3%A9_en_une_dizaine_de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="l'actualité en une dizaine de">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/l%27actualit%C3%A9_en_une_dizaine_de#French" target="_blank" rel="noopener noreferrer" title="l'actualité en une dizaine de">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/l%27actualit%C3%A9%20en%20une%20dizaine%20de/french" target="_blank" rel="noopener noreferrer" title="l'actualité en une dizaine de">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=l%27actualit%C3%A9%20en%20une%20dizaine%20de" target="_blank" rel="noopener noreferrer" title="l'actualité en une dizaine de">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">37.5%</span>
+</div>
+
+<div class="row" id="row24">
+<span class="number">24</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/en#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: en">en</a> <a href="https://fr.wiktionary.org/wiki/une#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: une">une</a> <a href="https://fr.wiktionary.org/wiki/dizaine#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: dizaine">dizaine</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a> <a href="https://fr.wiktionary.org/wiki/minutes#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: minutes">minutes</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/en_une_dizaine_de_minutes#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="en une dizaine de minutes">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/en_une_dizaine_de_minutes#French" target="_blank" rel="noopener noreferrer" title="en une dizaine de minutes">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/en%20une%20dizaine%20de%20minutes/french" target="_blank" rel="noopener noreferrer" title="en une dizaine de minutes">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=en%20une%20dizaine%20de%20minutes" target="_blank" rel="noopener noreferrer" title="en une dizaine de minutes">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">37.5%</span>
+</div>
+
+<div class="row" id="row25">
+<span class="number">25</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/l%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: l'">l'</a><a href="https://fr.wiktionary.org/wiki/actualit%C3%A9#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: actualité">actualité</a> <a href="https://fr.wiktionary.org/wiki/en#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: en">en</a> <a href="https://fr.wiktionary.org/wiki/une#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: une">une</a> <a href="https://fr.wiktionary.org/wiki/dizaine#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: dizaine">dizaine</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a> <a href="https://fr.wiktionary.org/wiki/minutes#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: minutes">minutes</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/l%27actualit%C3%A9_en_une_dizaine_de_minutes#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="l'actualité en une dizaine de minutes">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/l%27actualit%C3%A9_en_une_dizaine_de_minutes#French" target="_blank" rel="noopener noreferrer" title="l'actualité en une dizaine de minutes">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/l%27actualit%C3%A9%20en%20une%20dizaine%20de%20minutes/french" target="_blank" rel="noopener noreferrer" title="l'actualité en une dizaine de minutes">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=l%27actualit%C3%A9%20en%20une%20dizaine%20de%20minutes" target="_blank" rel="noopener noreferrer" title="l'actualité en une dizaine de minutes">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">37.5%</span>
+</div>
+
+<div class="row" id="row26">
+<span class="number">26</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/on#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: on">on</a> <a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/en#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: en">en</a> <a href="https://fr.wiktionary.org/wiki/train#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: train">train</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/on_est_en_train_de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="on est en train de">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/on_est_en_train_de#French" target="_blank" rel="noopener noreferrer" title="on est en train de">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/on%20est%20en%20train%20de/french" target="_blank" rel="noopener noreferrer" title="on est en train de">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=on%20est%20en%20train%20de" target="_blank" rel="noopener noreferrer" title="on est en train de">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row27">
+<span class="number">27</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/la#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: la">la</a> <a href="https://fr.wiktionary.org/wiki/premi%C3%A8re#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: première">première</a> <a href="https://fr.wiktionary.org/wiki/fois#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: fois">fois</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/je#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: je">je</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/la_premi%C3%A8re_fois_que_je#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="la première fois que je">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/la_premi%C3%A8re_fois_que_je#French" target="_blank" rel="noopener noreferrer" title="la première fois que je">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/la%20premi%C3%A8re%20fois%20que%20je/french" target="_blank" rel="noopener noreferrer" title="la première fois que je">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=la%20premi%C3%A8re%20fois%20que%20je" target="_blank" rel="noopener noreferrer" title="la première fois que je">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row28">
+<span class="number">28</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/il#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: il">il</a> <a href="https://fr.wiktionary.org/wiki/y#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: y">y</a> <a href="https://fr.wiktionary.org/wiki/en#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: en">en</a> <a href="https://fr.wiktionary.org/wiki/a#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: a">a</a> <a href="https://fr.wiktionary.org/wiki/qui#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qui">qui</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/il_y_en_a_qui#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="il y en a qui">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/il_y_en_a_qui#French" target="_blank" rel="noopener noreferrer" title="il y en a qui">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/il%20y%20en%20a%20qui/french" target="_blank" rel="noopener noreferrer" title="il y en a qui">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=il%20y%20en%20a%20qui" target="_blank" rel="noopener noreferrer" title="il y en a qui">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row29">
+<span class="number">29</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/il#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: il">il</a> <a href="https://fr.wiktionary.org/wiki/y#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: y">y</a> <a href="https://fr.wiktionary.org/wiki/a#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: a">a</a> <a href="https://fr.wiktionary.org/wiki/des#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: des">des</a> <a href="https://fr.wiktionary.org/wiki/gens#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: gens">gens</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/il_y_a_des_gens#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="il y a des gens">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/il_y_a_des_gens#French" target="_blank" rel="noopener noreferrer" title="il y a des gens">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/il%20y%20a%20des%20gens/french" target="_blank" rel="noopener noreferrer" title="il y a des gens">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=il%20y%20a%20des%20gens" target="_blank" rel="noopener noreferrer" title="il y a des gens">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row30">
+<span class="number">30</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/j%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: j'">j'</a><a href="https://fr.wiktionary.org/wiki/ai#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ai">ai</a> <a href="https://fr.wiktionary.org/wiki/mis#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: mis">mis</a> <a href="https://fr.wiktionary.org/wiki/un#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: un">un</a> <a href="https://fr.wiktionary.org/wiki/budget#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: budget">budget</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/j%27ai_mis_un_budget_de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="j'ai mis un budget de">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/j%27ai_mis_un_budget_de#French" target="_blank" rel="noopener noreferrer" title="j'ai mis un budget de">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/j%27ai%20mis%20un%20budget%20de/french" target="_blank" rel="noopener noreferrer" title="j'ai mis un budget de">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=j%27ai%20mis%20un%20budget%20de" target="_blank" rel="noopener noreferrer" title="j'ai mis un budget de">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row31">
+<span class="number">31</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/j%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: j'">j'</a><a href="https://fr.wiktionary.org/wiki/esp%C3%A8re#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: espère">espère</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/c%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: c'">c'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/pas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: pas">pas</a> <a href="https://fr.wiktionary.org/wiki/encore#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: encore">encore</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/j%27esp%C3%A8re_que_c%27est_pas_encore#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="j'espère que c'est pas encore">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/j%27esp%C3%A8re_que_c%27est_pas_encore#French" target="_blank" rel="noopener noreferrer" title="j'espère que c'est pas encore">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/j%27esp%C3%A8re%20que%20c%27est%20pas%20encore/french" target="_blank" rel="noopener noreferrer" title="j'espère que c'est pas encore">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=j%27esp%C3%A8re%20que%20c%27est%20pas%20encore" target="_blank" rel="noopener noreferrer" title="j'espère que c'est pas encore">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row32">
+<span class="number">32</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/je#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: je">je</a> <a href="https://fr.wiktionary.org/wiki/ne#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ne">ne</a> <a href="https://fr.wiktionary.org/wiki/sais#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: sais">sais</a> <a href="https://fr.wiktionary.org/wiki/pas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: pas">pas</a> <a href="https://fr.wiktionary.org/wiki/comment#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: comment">comment</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/je_ne_sais_pas_comment#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="je ne sais pas comment">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/je_ne_sais_pas_comment#French" target="_blank" rel="noopener noreferrer" title="je ne sais pas comment">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/je%20ne%20sais%20pas%20comment/french" target="_blank" rel="noopener noreferrer" title="je ne sais pas comment">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=je%20ne%20sais%20pas%20comment" target="_blank" rel="noopener noreferrer" title="je ne sais pas comment">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row33">
+<span class="number">33</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/qui#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qui">qui</a> <a href="https://fr.wiktionary.org/wiki/se#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: se">se</a> <a href="https://fr.wiktionary.org/wiki/passe#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: passe">passe</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/qu%27est_ce_qui_se_passe#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="qu'est ce qui se passe">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/qu%27est_ce_qui_se_passe#French" target="_blank" rel="noopener noreferrer" title="qu'est ce qui se passe">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/qu%27est%20ce%20qui%20se%20passe/french" target="_blank" rel="noopener noreferrer" title="qu'est ce qui se passe">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=qu%27est%20ce%20qui%20se%20passe" target="_blank" rel="noopener noreferrer" title="qu'est ce qui se passe">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row34">
+<span class="number">34</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a> <a href="https://fr.wiktionary.org/wiki/en#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: en">en</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/qu%27est_ce_que_tu_en#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu en">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/qu%27est_ce_que_tu_en#French" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu en">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/qu%27est%20ce%20que%20tu%20en/french" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu en">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=qu%27est%20ce%20que%20tu%20en" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu en">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row35">
+<span class="number">35</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a> <a href="https://fr.wiktionary.org/wiki/en#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: en">en</a> <a href="https://fr.wiktionary.org/wiki/penses#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: penses">penses</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/ce_que_tu_en_penses#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="ce que tu en penses">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/ce_que_tu_en_penses#French" target="_blank" rel="noopener noreferrer" title="ce que tu en penses">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/ce%20que%20tu%20en%20penses/french" target="_blank" rel="noopener noreferrer" title="ce que tu en penses">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=ce%20que%20tu%20en%20penses" target="_blank" rel="noopener noreferrer" title="ce que tu en penses">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row36">
+<span class="number">36</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/et#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: et">et</a> <a href="https://fr.wiktionary.org/wiki/toi#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: toi">toi</a> <a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/et_toi_qu%27est_ce_que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="et toi qu'est ce que">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/et_toi_qu%27est_ce_que#French" target="_blank" rel="noopener noreferrer" title="et toi qu'est ce que">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/et%20toi%20qu%27est%20ce%20que/french" target="_blank" rel="noopener noreferrer" title="et toi qu'est ce que">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=et%20toi%20qu%27est%20ce%20que" target="_blank" rel="noopener noreferrer" title="et toi qu'est ce que">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row37">
+<span class="number">37</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/toi#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: toi">toi</a> <a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/toi_qu%27est_ce_que_tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="toi qu'est ce que tu">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/toi_qu%27est_ce_que_tu#French" target="_blank" rel="noopener noreferrer" title="toi qu'est ce que tu">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/toi%20qu%27est%20ce%20que%20tu/french" target="_blank" rel="noopener noreferrer" title="toi qu'est ce que tu">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=toi%20qu%27est%20ce%20que%20tu" target="_blank" rel="noopener noreferrer" title="toi qu'est ce que tu">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row38">
+<span class="number">38</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/vous#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: vous">vous</a> <a href="https://fr.wiktionary.org/wiki/faites#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: faites">faites</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/qu%27est_ce_que_vous_faites#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="qu'est ce que vous faites">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/qu%27est_ce_que_vous_faites#French" target="_blank" rel="noopener noreferrer" title="qu'est ce que vous faites">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/qu%27est%20ce%20que%20vous%20faites/french" target="_blank" rel="noopener noreferrer" title="qu'est ce que vous faites">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=qu%27est%20ce%20que%20vous%20faites" target="_blank" rel="noopener noreferrer" title="qu'est ce que vous faites">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row39">
+<span class="number">39</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/vous#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: vous">vous</a> <a href="https://fr.wiktionary.org/wiki/avez#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: avez">avez</a> <a href="https://fr.wiktionary.org/wiki/fait#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: fait">fait</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/ce_que_vous_avez_fait#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="ce que vous avez fait">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/ce_que_vous_avez_fait#French" target="_blank" rel="noopener noreferrer" title="ce que vous avez fait">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/ce%20que%20vous%20avez%20fait/french" target="_blank" rel="noopener noreferrer" title="ce que vous avez fait">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=ce%20que%20vous%20avez%20fait" target="_blank" rel="noopener noreferrer" title="ce que vous avez fait">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row40">
+<span class="number">40</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a> <a href="https://fr.wiktionary.org/wiki/en#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: en">en</a> <a href="https://fr.wiktionary.org/wiki/penses#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: penses">penses</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/qu%27est_ce_que_tu_en_penses#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu en penses">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/qu%27est_ce_que_tu_en_penses#French" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu en penses">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/qu%27est%20ce%20que%20tu%20en%20penses/french" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu en penses">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=qu%27est%20ce%20que%20tu%20en%20penses" target="_blank" rel="noopener noreferrer" title="qu'est ce que tu en penses">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row41">
+<span class="number">41</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/et#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: et">et</a> <a href="https://fr.wiktionary.org/wiki/toi#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: toi">toi</a> <a href="https://fr.wiktionary.org/wiki/qu%27#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: qu'">qu'</a><a href="https://fr.wiktionary.org/wiki/est#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: est">est</a> <a href="https://fr.wiktionary.org/wiki/ce#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: ce">ce</a> <a href="https://fr.wiktionary.org/wiki/que#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: que">que</a> <a href="https://fr.wiktionary.org/wiki/tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: tu">tu</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/et_toi_qu%27est_ce_que_tu#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="et toi qu'est ce que tu">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/et_toi_qu%27est_ce_que_tu#French" target="_blank" rel="noopener noreferrer" title="et toi qu'est ce que tu">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/et%20toi%20qu%27est%20ce%20que%20tu/french" target="_blank" rel="noopener noreferrer" title="et toi qu'est ce que tu">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=et%20toi%20qu%27est%20ce%20que%20tu" target="_blank" rel="noopener noreferrer" title="et toi qu'est ce que tu">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row42">
+<span class="number">42</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/comptes#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: comptes">comptes</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a> <a href="https://fr.wiktionary.org/wiki/campagne#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: campagne">campagne</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a> <a href="https://fr.wiktionary.org/wiki/jean#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: jean">jean</a>-<a href="https://fr.wiktionary.org/wiki/luc#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: luc">luc</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/comptes_de_campagne_de_jean-luc#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="comptes de campagne de jean-luc">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/comptes_de_campagne_de_jean-luc#French" target="_blank" rel="noopener noreferrer" title="comptes de campagne de jean-luc">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/comptes%20de%20campagne%20de%20jean-luc/french" target="_blank" rel="noopener noreferrer" title="comptes de campagne de jean-luc">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=comptes%20de%20campagne%20de%20jean-luc" target="_blank" rel="noopener noreferrer" title="comptes de campagne de jean-luc">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row43">
+<span class="number">43</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/commission#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: commission">commission</a> <a href="https://fr.wiktionary.org/wiki/des#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: des">des</a> <a href="https://fr.wiktionary.org/wiki/comptes#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: comptes">comptes</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a> <a href="https://fr.wiktionary.org/wiki/campagne#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: campagne">campagne</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/commission_des_comptes_de_campagne#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="commission des comptes de campagne">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/commission_des_comptes_de_campagne#French" target="_blank" rel="noopener noreferrer" title="commission des comptes de campagne">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/commission%20des%20comptes%20de%20campagne/french" target="_blank" rel="noopener noreferrer" title="commission des comptes de campagne">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=commission%20des%20comptes%20de%20campagne" target="_blank" rel="noopener noreferrer" title="commission des comptes de campagne">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row44">
+<span class="number">44</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/le#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: le">le</a> <a href="https://fr.wiktionary.org/wiki/compte#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: compte">compte</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a> <a href="https://fr.wiktionary.org/wiki/jean#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: jean">jean</a>-<a href="https://fr.wiktionary.org/wiki/luc#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: luc">luc</a> <a href="https://fr.wiktionary.org/wiki/m%C3%A9lenchon#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: mélenchon">mélenchon</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/le_compte_de_jean-luc_m%C3%A9lenchon#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="le compte de jean-luc mélenchon">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/le_compte_de_jean-luc_m%C3%A9lenchon#French" target="_blank" rel="noopener noreferrer" title="le compte de jean-luc mélenchon">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/le%20compte%20de%20jean-luc%20m%C3%A9lenchon/french" target="_blank" rel="noopener noreferrer" title="le compte de jean-luc mélenchon">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=le%20compte%20de%20jean-luc%20m%C3%A9lenchon" target="_blank" rel="noopener noreferrer" title="le compte de jean-luc mélenchon">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row45">
+<span class="number">45</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/comptes#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: comptes">comptes</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a> <a href="https://fr.wiktionary.org/wiki/campagne#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: campagne">campagne</a> <a href="https://fr.wiktionary.org/wiki/de#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: de">de</a> <a href="https://fr.wiktionary.org/wiki/jean#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: jean">jean</a>-<a href="https://fr.wiktionary.org/wiki/luc#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: luc">luc</a> <a href="https://fr.wiktionary.org/wiki/m%C3%A9lenchon#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: mélenchon">mélenchon</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/comptes_de_campagne_de_jean-luc_m%C3%A9lenchon#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="comptes de campagne de jean-luc mélenchon">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/comptes_de_campagne_de_jean-luc_m%C3%A9lenchon#French" target="_blank" rel="noopener noreferrer" title="comptes de campagne de jean-luc mélenchon">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/comptes%20de%20campagne%20de%20jean-luc%20m%C3%A9lenchon/french" target="_blank" rel="noopener noreferrer" title="comptes de campagne de jean-luc mélenchon">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=comptes%20de%20campagne%20de%20jean-luc%20m%C3%A9lenchon" target="_blank" rel="noopener noreferrer" title="comptes de campagne de jean-luc mélenchon">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row46">
+<span class="number">46</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/moi#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: moi">moi</a> <a href="https://fr.wiktionary.org/wiki/aussi#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: aussi">aussi</a> <a href="https://fr.wiktionary.org/wiki/je#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: je">je</a> <a href="https://fr.wiktionary.org/wiki/fais#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: fais">fais</a> <a href="https://fr.wiktionary.org/wiki/des#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: des">des</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/moi_aussi_je_fais_des#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="moi aussi je fais des">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/moi_aussi_je_fais_des#French" target="_blank" rel="noopener noreferrer" title="moi aussi je fais des">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/moi%20aussi%20je%20fais%20des/french" target="_blank" rel="noopener noreferrer" title="moi aussi je fais des">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=moi%20aussi%20je%20fais%20des" target="_blank" rel="noopener noreferrer" title="moi aussi je fais des">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row47">
+<span class="number">47</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/aussi#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: aussi">aussi</a> <a href="https://fr.wiktionary.org/wiki/je#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: je">je</a> <a href="https://fr.wiktionary.org/wiki/fais#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: fais">fais</a> <a href="https://fr.wiktionary.org/wiki/des#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: des">des</a> <a href="https://fr.wiktionary.org/wiki/vid%C3%A9os#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: vidéos">vidéos</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/aussi_je_fais_des_vid%C3%A9os#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="aussi je fais des vidéos">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/aussi_je_fais_des_vid%C3%A9os#French" target="_blank" rel="noopener noreferrer" title="aussi je fais des vidéos">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/aussi%20je%20fais%20des%20vid%C3%A9os/french" target="_blank" rel="noopener noreferrer" title="aussi je fais des vidéos">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=aussi%20je%20fais%20des%20vid%C3%A9os" target="_blank" rel="noopener noreferrer" title="aussi je fais des vidéos">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row48">
+<span class="number">48</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/moi#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: moi">moi</a> <a href="https://fr.wiktionary.org/wiki/aussi#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: aussi">aussi</a> <a href="https://fr.wiktionary.org/wiki/je#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: je">je</a> <a href="https://fr.wiktionary.org/wiki/fais#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: fais">fais</a> <a href="https://fr.wiktionary.org/wiki/des#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: des">des</a> <a href="https://fr.wiktionary.org/wiki/vid%C3%A9os#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: vidéos">vidéos</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/moi_aussi_je_fais_des_vid%C3%A9os#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="moi aussi je fais des vidéos">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/moi_aussi_je_fais_des_vid%C3%A9os#French" target="_blank" rel="noopener noreferrer" title="moi aussi je fais des vidéos">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/moi%20aussi%20je%20fais%20des%20vid%C3%A9os/french" target="_blank" rel="noopener noreferrer" title="moi aussi je fais des vidéos">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=moi%20aussi%20je%20fais%20des%20vid%C3%A9os" target="_blank" rel="noopener noreferrer" title="moi aussi je fais des vidéos">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row49">
+<span class="number">49</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/avec#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: avec">avec</a> <a href="https://fr.wiktionary.org/wiki/le#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: le">le</a> <a href="https://fr.wiktionary.org/wiki/sujet#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: sujet">sujet</a> <a href="https://fr.wiktionary.org/wiki/%C3%A0#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: à">à</a> <a href="https://fr.wiktionary.org/wiki/la#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: la">la</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/avec_le_sujet_%C3%A0_la#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="avec le sujet à la">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/avec_le_sujet_%C3%A0_la#French" target="_blank" rel="noopener noreferrer" title="avec le sujet à la">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/avec%20le%20sujet%20%C3%A0%20la/french" target="_blank" rel="noopener noreferrer" title="avec le sujet à la">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=avec%20le%20sujet%20%C3%A0%20la" target="_blank" rel="noopener noreferrer" title="avec le sujet à la">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row50">
+<span class="number">50</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/le#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: le">le</a> <a href="https://fr.wiktionary.org/wiki/sujet#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: sujet">sujet</a> <a href="https://fr.wiktionary.org/wiki/%C3%A0#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: à">à</a> <a href="https://fr.wiktionary.org/wiki/la#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: la">la</a> <a href="https://fr.wiktionary.org/wiki/une#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: une">une</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/le_sujet_%C3%A0_la_une#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="le sujet à la une">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/le_sujet_%C3%A0_la_une#French" target="_blank" rel="noopener noreferrer" title="le sujet à la une">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/le%20sujet%20%C3%A0%20la%20une/french" target="_blank" rel="noopener noreferrer" title="le sujet à la une">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=le%20sujet%20%C3%A0%20la%20une" target="_blank" rel="noopener noreferrer" title="le sujet à la une">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row51">
+<span class="number">51</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/avec#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: avec">avec</a> <a href="https://fr.wiktionary.org/wiki/le#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: le">le</a> <a href="https://fr.wiktionary.org/wiki/sujet#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: sujet">sujet</a> <a href="https://fr.wiktionary.org/wiki/%C3%A0#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: à">à</a> <a href="https://fr.wiktionary.org/wiki/la#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: la">la</a> <a href="https://fr.wiktionary.org/wiki/une#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: une">une</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/avec_le_sujet_%C3%A0_la_une#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="avec le sujet à la une">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/avec_le_sujet_%C3%A0_la_une#French" target="_blank" rel="noopener noreferrer" title="avec le sujet à la une">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/avec%20le%20sujet%20%C3%A0%20la%20une/french" target="_blank" rel="noopener noreferrer" title="avec le sujet à la une">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=avec%20le%20sujet%20%C3%A0%20la%20une" target="_blank" rel="noopener noreferrer" title="avec le sujet à la une">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+<div class="row" id="row52">
+<span class="number">52</span><span class="phrase"><a href="https://fr.wiktionary.org/wiki/pas#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: pas">pas</a> <a href="https://fr.wiktionary.org/wiki/si#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: si">si</a> <a href="https://fr.wiktionary.org/wiki/je#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: je">je</a> <a href="https://fr.wiktionary.org/wiki/me#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: me">me</a> <a href="https://fr.wiktionary.org/wiki/rends#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="🇫🇷Wiktionnaire: rends">rends</a></span>
+<a class="big" href="https://fr.wiktionary.org/wiki/pas_si_je_me_rends#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="pas si je me rends">🇫🇷Wiktionnaire</a>
+<a class="big" href="https://en.wiktionary.org/wiki/pas_si_je_me_rends#French" target="_blank" rel="noopener noreferrer" title="pas si je me rends">🇬🇧Wiktionary</a>
+<a class="big" href="https://youglish.com/pronounce/pas%20si%20je%20me%20rends/french" target="_blank" rel="noopener noreferrer" title="pas si je me rends">🇫🇷YouGlish</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text=pas%20si%20je%20me%20rends" target="_blank" rel="noopener noreferrer" title="pas si je me rends">🇫🇷🇬🇧Google Translate</a>
+<span class="percent">31.2%</span>
+</div>
+
+      </body>
+      </html>
+      

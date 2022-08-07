@@ -5,6 +5,7 @@ import string
 import xml.etree.ElementTree as ElementTree
 from itertools import islice
 
+max_phrase_length = 6
 words_dict = {}
 
 
@@ -13,6 +14,7 @@ def add_global_phrase(phrase):
 
 
 for filename in glob("xml/*.xml"):
+    print("Reading", filename)
     with open(filename, "r") as xml_file:
         # For some reason the YouTube subtitle XML has double escaped values
         # like &amp;quot; or &amp;#39; in the <text>  elements
@@ -28,7 +30,7 @@ for filename in glob("xml/*.xml"):
             text = unescapeEntities(text)
             for word in text.split():
                 word = word.strip(string.punctuation +
-                                  string.digits + '…»«“”€')
+                                  string.digits + '…»«“”€–')
                 word_list.append(word.lower())
 
         # returns iterable of tuples
@@ -36,13 +38,18 @@ for filename in glob("xml/*.xml"):
             iters = [islice(word_list, i, None) for i in range(n)]
             return zip(*iters)
 
-        for n in range(5):
-            for tup in make_tuples(n+1):
+        for n in range(1, max_phrase_length+1):
+            for tup in make_tuples(n):
                 if all(tup):
-                    add_global_phrase(' '.join(tup))
+                    add_global_phrase(tup)
 
 # remove rare phrases
-item_filter = filter(lambda x: x[1] >= 3, words_dict.items())
+item_filter = filter(lambda x: x[1] >= 5, words_dict.items())
 phrases = sorted(item_filter, key=lambda x: x[1], reverse=True)
-for phrase, count in islice(phrases, 0, 10000):
-    print(phrase)
+
+for n in range(1, max_phrase_length+1):
+    filename = 'stat{}.txt'.format(n)
+    print("Writing", filename)
+    with open(filename, 'w') as output_file:
+        for phrase, count in islice(filter(lambda x: len(x[0]) >= n, phrases), 0, 10000):
+            print(' '.join(phrase), count, sep='\t', file=output_file)
