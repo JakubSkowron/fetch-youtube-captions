@@ -5,9 +5,11 @@ import string
 import xml.etree.ElementTree as ElementTree
 from itertools import islice
 
-max_phrase_length = 6
-words_dict = {}
+max_phrase_length = 5
+count_threshold = 0.002
+max_phrases = 10000
 
+words_dict = {}
 
 def add_global_phrase(phrase):
     words_dict[phrase] = words_dict.get(phrase, 0) + 1
@@ -44,12 +46,13 @@ for filename in glob("xml/*.xml"):
                     add_global_phrase(tup)
 
 # remove rare phrases
-item_filter = filter(lambda x: x[1] >= 5, words_dict.items())
-phrases = sorted(item_filter, key=lambda x: x[1], reverse=True)
+filtered = filter(lambda x: x[1] >= 5, words_dict.items())
+phrases = sorted(filtered, key=lambda x: x[1], reverse=True)
 
 for n in range(1, max_phrase_length+1):
     filename = 'stat{}.txt'.format(n)
     print("Writing", filename)
     with open(filename, 'w') as output_file:
-        for phrase, count in islice(filter(lambda x: len(x[0]) >= n, phrases), 0, 10000):
+        filtered = filter(lambda x: len(x[0]) >= n, phrases)
+        for phrase, count in islice(filtered, max_phrases):
             print(' '.join(phrase), count, sep='\t', file=output_file)

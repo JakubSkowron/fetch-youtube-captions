@@ -92,10 +92,8 @@ header = """\
 row_template = '''\
 <div class="row" id="row{n}">
 <span class="number">{n}</span><span class="phrase">{phrase_html}</span>
-<a class="big" href="https://fr.wiktionary.org/wiki/{wiki}#Fran%C3%A7ais" target="_blank" rel="noopener noreferrer" title="{phrase}">🇫🇷Wiktionnaire</a>
-<a class="big" href="https://en.wiktionary.org/wiki/{wiki}#French" target="_blank" rel="noopener noreferrer" title="{phrase}">🇬🇧Wiktionary</a>
+<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text={gtranslate}" target="_blank" rel="noopener noreferrer" title="Google Translate: {phrase}">🇫🇷→🇬🇧</a>
 <a class="big" href="https://youglish.com/pronounce/{youglish}/french" target="_blank" rel="noopener noreferrer" title="{phrase}">🇫🇷YouGlish</a>
-<a class="big" href="https://translate.google.com/?sl=fr&tl=en&text={gtranslate}" target="_blank" rel="noopener noreferrer" title="{phrase}">🇫🇷🇬🇧Google Translate</a>
 <span class="percent">{percent:.1f}%</span>
 </div>
 '''
@@ -123,21 +121,19 @@ def transform_matched(regex, functor, text):
     return res
 
 
-max_phrase_length = 6
+max_phrase_length = 5
 for n in range(1, max_phrase_length+1):
     in_filename = "stat{}.txt".format(n)
     with open(in_filename, "r") as in_file:
-        out_filename = "index{}.html".format(n if n > 1 else "")
+        out_filename = "index{}.html".format(n)
         print("Writing", out_filename)
         with open(out_filename, "w") as out_file:
             print(header, file=out_file)
             print('<div id="navbar">', file=out_file)
             if n > 1:
-                print('<button onclick="location.href=\'index{}.html\'">plus courtes</button>'.format(
-                    n-1 if n-1 > 1 else ""), file=out_file)
+                print('<button onclick="location.href=\'index{}.html\'">plus courtes</button>'.format(n-1), file=out_file)
             if n < max_phrase_length:
-                print(
-                    '<button onclick="location.href=\'index{}.html\'">plus longues</button>'.format(n+1), file=out_file)
+                print('<button onclick="location.href=\'index{}.html\'">plus longues</button>'.format(n+1), file=out_file)
             print('</div>', file=out_file)
             first_count = None
             for i, phrase in enumerate(in_file):
