@@ -1,231 +1,489 @@
-il y a des	49
-il y a une	44
-il y a un	44
-il n'y a pas	36
-il y en a	34
-ce qui se passe	32
-est en train de	30
-je ne sais pas	29
-de plus en plus	27
-je me suis dit	23
-n'y a pas de	22
-y a quelque chose	22
-je ne suis pas	21
-il y a eu	21
-je crois que c'est	20
-mais il y a	20
-il y a quelque	20
-que ce n'est pas	19
-et en même temps	19
-il y a quelque chose	19
-il n'y a pas de	18
-c'est pour ça que	18
-donc il y a	18
-et je me suis	17
-on ne peut pas	15
-est ce que c'est	15
-à ce moment là	14
-alors il y a	14
-un petit peu de	14
-que tout le monde	13
-est ce que tu	13
-et il y a	13
-et je pense que	13
-ce que je veux	13
-il y a plein	13
-ça veut dire que	13
-il ne faut pas	13
-les moteurs de recherche	13
-ce qui s'est passé	12
-je suis en train	12
-suis en train de	12
-je suis en train de	12
-il faut que je	12
-pour ce qui est	12
-est-ce que vous avez	12
+je ne sais pas	64
+de plus en plus	49
+je ne suis pas	48
+est en train de	46
+je me suis dit	39
+ce qui se passe	37
+je crois que c'est	36
+c'est pour ça que	33
+et je me suis	29
+ce que je veux	28
+il faut que je	27
+ça veut dire que	27
+je ne peux pas	26
+et je pense que	23
+je pense que c'est	23
+que ce n'est pas	22
+on ne peut pas	22
+tout ce qui est	22
+un si grand soleil	22
+je suis sûr que	21
+ce que tu veux	21
+que tout le monde	21
+et en même temps	21
+je suis en train	20
+suis en train de	20
+je suis en train de	20
+à ce moment là	20
+je ne veux pas	20
+un petit peu de	20
+de temps en temps	20
+ce qui s'est passé	19
+est-ce que vous avez	19
+qu'est-ce que tu fais	18
+je crois que je	18
+c'est à dire que	18
+pour la première fois	18
+ce que tu as	18
+je sais que je	17
+je ne savais pas	17
+je vous en prie	17
+qu'est-ce qui se passe	16
+il ne faut pas	16
+à la fin de	16
+on est en train	16
+mais ce n'est pas	16
+je sais pas si	16
+ce que je fais	16
+qu'est-ce que c'est que	15
+quoi que ce soit	15
+ce que tu fais	15
+je suis vraiment désolé	15
+non pas du tout	15
+je vais vous montrer	15
+non non non non	15
+est-ce que tu as	14
+tout ce que je	14
+qu'est-ce qui s'est passé	14
+à un moment donné	14
+plus en plus de	14
+c'est un petit peu	14
+je n'ai pas de	14
+vous ne pouvez pas	14
+les moteurs de recherche	14
+est-ce que tu es	13
+sur les réseaux sociaux	13
+dans tous les sens	13
+je ne vais pas	13
+à tout le monde	13
+de plus en plus de	13
+pour ce qui est	13
+tout ce que tu	13
+pour tout le monde	13
+c'est quelque chose qui	13
+en train de faire	13
+est-ce que je peux	13
+je ne voulais pas	13
+et c'est pour ça	13
+mais c'est vrai que	13
+qu'est-ce que vous faites	13
+tu veux que je	12
+ce que vous avez	12
+ce n'est pas le	12
+vous êtes en train	12
+êtes en train de	12
+vous êtes en train de	12
+ce n'est pas une	12
+on est en train de	12
+c'est pas du tout	12
+ce n'est pas la	12
 qui ne sont pas	12
-je sais pas si	12
-il y a quelques	12
-il y a deux	12
-on est en train	11
-dans tous les sens	11
-je ne peux pas	11
-mais ce n'est pas	11
-parce que je suis	11
-il y a aussi	11
-plus en plus de	11
-de temps en temps	11
-qu'il y a des	11
-est ce que vous	11
-a quelque chose qui	11
-y a quelque chose qui	11
-sur les réseaux sociaux	10
-y en a qui	10
-on est en train de	10
-il y a pas	10
-de plus en plus de	10
-ce qui est intéressant	10
-et c'est pour ça	10
+qu'est-ce que tu veux	12
+je sais pas pourquoi	12
+il faut que tu	12
+que je veux dire	11
+ce que vous faites	11
+je sais pas comment	11
+partir du moment où	11
+je vais vous raconter	11
+je pense qu'il faut	11
+ce qui est intéressant	11
+de tout le monde	11
+tout le monde et	11
+je sais que c'est	11
+je sais pas ce	11
+la dernière fois que	11
+oui tout à fait	11
+je pense que le	11
+en train de se	11
+comment ça se passe	11
+en fait on a	11
+pas tout à fait	10
+tout ce que vous	10
+je suis désolé mais	10
+c'est pour ça qu'on	10
+je sais que tu	10
+je dois dire que	10
+quelque chose de très	10
+à chaque fois que	10
+une fois de plus	10
+c'est la fin de	10
+pour ça que je	10
+c'est ça qui est	10
+c'est pour ça que je	10
+je me suis rendu	10
+je trouve que c'est	10
+ils ne sont pas	10
+je n'arrive pas à	10
+je croyais que tu	10
+tu ne veux pas	10
+pas ce que je	10
+en train de me	10
+le problème c'est que	10
+que ça veut dire	10
+je crois que j'ai	10
+je pense que ça	10
+c'est vrai que c'est	10
+sur le site de	10
+que je me suis	10
+ce que vous voulez	10
+je suis un peu	10
+gaz à effet de	10
+à effet de serre	10
+gaz à effet de serre	10
 ce qui est du	10
 pour ce qui est du	10
-qu'est ce que vous	10
+pas le droit de	10
 la brigade des mères	10
 sur le deep web	10
-à un moment donné	9
-c'est à dire que	9
-c'est ce que je	9
-quelque chose de très	9
-partir du moment où	9
-je vais vous raconter	9
-à tout le monde	9
-je pense que c'est	9
-je pense qu'il faut	9
-ils ne sont pas	9
-c'est quelque chose qui	9
-en train de me	9
-qu'est ce que tu	9
-parce que je me	9
-parce qu'il y a	9
-mais c'est vrai que	9
-je sais pas pourquoi	9
-que je me suis	9
-je pense que le	9
-y a plein de	9
-en train de faire	9
-à la fin de	8
-il y en a qui	8
-c'est pas du tout	8
-est ce que je	8
-qu'il y a un	8
-à partir du moment	8
-à partir du moment où	8
-ce que tu as	8
-ce n'est pas la	8
-en même temps je	8
-c'est un petit peu	8
-tout le monde et	8
-je sais que je	8
-là il y a	8
-y en a un	8
-il y a beaucoup	8
-c'est vrai que c'est	8
+tout le monde est	9
+je me suis retrouvé	9
+la première fois que	9
+ça va ça va	9
+ce que je veux dire	9
+un peu plus de	9
+ce que je peux	9
+à partir du moment	9
+à partir du moment où	9
+à partir de là	9
+je sais pas trop	9
+la fin de la	9
+ce qui est très	9
+que ça va être	9
+d'un point de vue	9
+en même temps je	9
+parce que ce n'est pas	9
+que vous avez fait	9
+ce que je vais	9
+et à la fin	9
+je n'en sais rien	9
+mais je n'ai pas	9
+mais je crois que	9
+il faut savoir que	9
+on ne va pas	9
+mais en même temps	9
+que tu as fait	9
+la mise en scène	9
+il y a quelque chose qui	9
+ce que je dis	9
+je vais vous dire	9
+ça va être un	9
+au fur et à	9
+fur et à mesure	9
+au fur et à mesure	9
+en fait je suis	9
+série un si grand	9
+d'un si grand soleil	9
+série un si grand soleil	9
+c'est un peu comme	9
+je suis pas un	9
+et je me suis dit	9
+je me rends compte	9
+me suis rendu compte	9
+je me suis rendu compte	9
+méthode de la parallaxe	9
+c'est la première fois	8
+et c'est vrai que	8
+je vous propose de	8
+c'est comme ça que	8
+qu'est-ce que tu as	8
+faut que j'y aille	8
+qu'est-ce que tu en	8
+que je dois faire	8
+comment tu te sens	8
+mais en tout cas	8
+en fait c'est un	8
+et je crois que	8
+en tout cas pour	8
+un tout petit peu	8
+qui est quand même	8
+quand même un peu	8
+il se trouve que	8
+tout le monde se	8
+et on se retrouve	8
+je me permets de	8
+je trouve ça très	8
+je ne comprends pas	8
+j'espère que c'est pas	8
+tu sais ce que	8
+ça sert à rien	8
+que je vais faire	8
+rien à voir avec	8
+je ne crois pas	8
+sais pas ce que	8
+de la part de	8
+ce qui est génial	8
+et ce qui est	8
+que je n'ai pas	8
+n'a pas le droit	8
+quelque chose qui me	8
+moi je suis pas	8
+j'ai du mal à	8
+quelque chose qui est	8
+on ne peut plus	8
+en fait je me	8
+du coup on a	8
+on n'a pas le	8
+vous ne voulez pas	8
+je peux vous dire	8
+on va essayer de	8
+je vais essayer de	8
+je peux vous aider	8
+la plupart du temps	8
+je pense que je	8
+va nous permettre de	8
+ça n'a rien à	8
+n'a rien à voir	8
+ça a été un	8
+c'est tout à fait	8
+la série un si	8
+un petit peu plus	8
+la série un si grand	8
 la pollution de l'air	8
-gaz à effet de	8
-à effet de serre	8
-gaz à effet de serre	8
-mais en tout cas	7
-ce que je peux	7
-c'est pour ça qu'on	7
+de parole en public	8
+la méthode de la	8
+la méthode de la parallaxe	8
+tout le monde a	7
+que tu veux dire	7
+en tout cas je	7
+on a la chance	7
+je dois y aller	7
+que c'est que ça	7
+je fais ce que	7
+ce que je voulais	7
+ça vous a plu	7
+que j'ai envie de	7
+qu'est-ce que c'est que ça	7
+et tout le monde	7
+en train de préparer	7
+un petit peu le	7
+en même temps c'est	7
 au bout d'un moment	7
-et je crois que	7
-un tout petit peu	7
+on peut dire que	7
+un certain nombre de	7
 on n'a pas besoin	7
-je ne vais pas	7
-il y avait un	7
-parce que du coup	7
-à partir de là	7
-une fois de plus	7
-parce que c'est un	7
-c'est ça qui est	7
-que ça va être	7
-tout ce qui est	7
-ce que je dis	7
-et on se retrouve	7
-mais il n'y a	7
-je trouve que c'est	7
-c'est ce qu'on appelle	7
-j'espère que c'est pas	7
-y a un problème	7
-pour tout le monde	7
-il y a tout	7
-mais je crois que	7
-non non non non	7
-ce qui est génial	7
-et ce qui est	7
-de tout le monde	7
-le problème c'est que	7
-il faut savoir que	7
-mais en même temps	7
-je n'ai pas de	7
-qu'est ce que c'est	7
-quelque chose qui est	7
-ce que vous avez	7
-il y avait des	7
+pas le temps de	7
+de la même façon	7
+je pense que les	7
+ça je sais pas	7
+que je vais vous	7
+ce genre de choses	7
+on est sur un	7
+ne sais pas si	7
+je ne sais pas si	7
+que tu en penses	7
+mais je pense qu'il	7
+je ne vois pas	7
+qu'est-ce que tu en penses	7
+tout un tas de	7
+ce que je vous	7
+mais je pense que	7
+mais je me suis	7
+on va faire un	7
+alors qu'est-ce que tu	7
+est-ce que tu peux	7
+tu as besoin de	7
+pour ça que j'ai	7
+je sais que j'ai	7
+tout ce que tu as	7
+ça ne va pas	7
+pas ce que tu	7
+bien sûr que non	7
+je leur ai dit	7
+comme vous pouvez le	7
+sont en train de	7
+en tout cas c'est	7
+de ne pas être	7
+tu es en train	7
+et c'est pour ça que	7
+est-ce que vous pouvez	7
+ne sert à rien	7
+ce que je pense	7
+de ce que je	7
+dans ce que vous	7
+la même chose que	7
+que vous avez vu	7
+ça me fait du	7
+me fait du bien	7
 et là je suis	7
-y a beaucoup de	7
-ça va être un	7
-est ce que ça	7
-je sais pas ce	7
-il y a les	7
-en train de se	7
-et c'est vrai que	7
-il y a plein de	7
-en fait on a	7
+n'a pas besoin de	7
+pas du tout je	7
+en fait on est	7
+je vous ai parlé	7
+je me suis mis	7
+on a envie de	7
+sais pas si c'est	7
+on va faire une	7
+une partie de la	7
+en plus de ça	7
+ce qu'on appelle le	7
+de la série un	7
+du site de vendargues	7
+qui est en train	7
+ça n'a rien à voir	7
+de la série un si	7
+qui est en train de	7
+suis rendu compte que	7
+on a de la	7
+me suis rendu compte que	7
+me suis dit que	7
+je me suis dit que	7
+pas tant que ça	7
+je lui ai dit	7
 est-ce que le poil	7
 qui est du contenu	7
 ce qui est du contenu	7
-un peu plus de	6
-je sais pas comment	6
-un petit peu le	6
+on est un peu	6
+je suis désolé je	6
+mais ça va pas	6
+je les ai vus	6
+j'étais en train de	6
+faut que je te	6
+qu'est-ce que tu fous	6
+fais ce que je	6
+je sais même pas	6
+c'est tout ce que	6
+prenez soin de vous	6
+que ça se passe	6
+ça n'a pas de	6
+c'est la première fois que	6
+et je pense que c'est	6
+je fais ce que je	6
+par rapport à la	6
+que ce soit un	6
+la mise en place	6
+bon pour la santé	6
+c'est une sorte de	6
 est un petit peu	6
-en même temps c'est	6
-en fait c'est un	6
+je suis très content	6
+c'est un truc de	6
 en direction de la	6
-c'est comme ça que	6
-a quelque chose de	6
+là on est en	6
+merci à tous les	6
+c'est un peu le	6
+faire en sorte que	6
+est tout à fait	6
 ou en tout cas	6
-qui est quand même	6
-quand même un peu	6
-y a quelque chose de	6
-à chaque fois que	6
-qu'est ce que je	6
-c'est la fin de	6
-pour ça que je	6
-c'est pour ça que je	6
-ce que je voulais	6
+parce que je pense que	6
+première fois que je	6
+je vous dis à	6
+la première fois que je	6
+je sais que vous	6
+et c'est ça qui	6
+voir ce qui se	6
 mais c'est pas possible	6
-ne sais pas si	6
-je ne sais pas si	6
-y a eu des	6
-d'un point de vue	6
+à chaque fois qu'on	6
+on se retrouve très	6
+ce n'est pas de	6
 sais pas si vous	6
-y a des gens	6
-parce que je trouve	6
-parce que ce n'est	6
-oui il y a	6
-il y a eu des	6
-parce que ce n'est pas	6
+non je n'ai pas	6
+qui est intéressant c'est	6
+mais qu'est-ce que tu	6
+tu sais bien que	6
+c'est quand même assez	6
+qui que ce soit	6
+à la maison et	6
+et c'est un peu	6
+que ça peut être	6
+je sais pas je	6
+qu'est-ce que tu vas	6
+pour ça que tu	6
+est ce que tu	6
+c'est pour ça que tu	6
+c'est pour ça que j'ai	6
+oui bien sûr je	6
+tu ne peux pas	6
+je crois que tu	6
+ne sais pas ce	6
+je n'ai pas le	6
+je ne sais pas ce	6
+et à chaque fois	6
+depuis que je suis	6
 j'espère que vous allez	6
 que vous allez bien	6
 j'espère que vous allez bien	6
-et c'est pour ça que	6
-il y a plusieurs	6
-quelque chose qui me	6
-pas ce que je	6
-il n'y a plus	6
+qui est un peu	6
+en fait ce qui	6
+qui est génial c'est	6
+ça y est c'est	6
+c'est la même chose	6
+ne peut pas être	6
+moi je ne suis	6
+et en fait on	6
+c'est pour ça qu'il	6
+ce qui est génial c'est	6
+on a eu des	6
+il ya plein de	6
+mais qu'est-ce que c'est	6
+suis pas du tout	6
+ne sais pas je	6
+je me dis que	6
 je sais pas en	6
 ce que vous dites	6
-y a des choses	6
-je vais vous dire	6
-il y a beaucoup de	6
-n'a pas besoin de	6
+pas du tout et	6
+à la place de	6
+à tous les deux	6
+ça me fait du bien	6
+un petit peu la	6
+un truc comme ça	6
+que tu fais là	6
+sais pas ce qui	6
+je lui ai demandé	6
 je fais des vidéos	6
+oui je sais mais	6
+c'est la dernière fois	6
+je me suis fait	6
+chaque fois que je	6
+dont je vous ai	6
+un coup de fil	6
+de me dire que	6
+que vous avez des	6
+me suis mis à	6
+je sais ce que	6
+pour que les gens	6
+à tous ceux qui	6
+dont je vous ai parlé	6
+je me suis mis à	6
 que vous avez déjà	6
-on a envie de	6
-la plupart du temps	6
+faut que je vous	6
 exactement la même chose	6
-je suis un peu	6
-sais pas si c'est	6
-en fait il y	6
-une partie de la	6
-en plus de ça	6
-c'est un peu comme	6
-parce que je voulais	6
-je me rends compte	6
-on a de la	6
+ça c'est quand même	6
+on est sur une	6
+il ya quand même	6
+elle est un peu	6
+il ya beaucoup de	6
+un peu comme un	6
+et du coup je	6
+tout ce qu'on a	6
+et donc du coup	6
+et ça a été	6
+de choses à faire	6
+tout à l'heure c'est	6
+le site de vendargues	6
+est en train de se	6
+était en train de	6
+je me retrouve à	6
+et en fait je	6
+ça fait des années	6
+que ce soit la	6
+que je vous ai	6
+vous savez ce que	6
+en train de vous	6
+prise de parole en	6
+prise de parole en public	6
 si je me rends	6
-ce qu'on appelle le	6
 le pet le pet	6
+mémoire à long terme	6
 le web visible et	6
 moteurs de recherche classiques	6
 vous êtes sur le	6
@@ -233,69 +491,82 @@ vous êtes sur le	6
 les moteurs de recherche classiques	6
 vous êtes sur le deep	6
 êtes sur le deep web	6
+pas la peine de	5
+que ce soit en	5
+je les ai pas	5
+sont de plus en	5
+je suis sûr qu'il	5
+j'en ai rien à	5
+je me suis trompé	5
+veut dire que tu	5
+fais ce que tu	5
+qu'est-ce que vous voulez	5
+je vous rappelle que	5
+moi ce que je	5
+que je veux c'est	5
+que vous êtes en	5
+dire que je suis	5
+je vous conseille de	5
+et moi je vais	5
+si vous êtes d'accord	5
+sont de plus en plus	5
+ce que je veux c'est	5
 autour de la centrale	5
-que ce soit un	5
-en tout cas il	5
 a fait appel à	5
-ce n'est pas une	5
-qu'il y en a	5
+le début de la	5
+pour ça qu'on a	5
 va pas du tout	5
-c'est une sorte de	5
-je suis très content	5
+c'est pour ça qu'on a	5
+c'est bon pour la	5
+là on est dans	5
+on est dans la	5
+ce que je vois	5
 ça y est on	5
-il y a du	5
-que ce sont des	5
-que c'est quelque chose	5
-en tout cas pour	5
+tous les gens qui	5
+a du mal à	5
+c'est quelque chose que	5
 c'est une très bonne	5
 dans la vraie vie	5
-il y a énormément	5
-il y a de	5
-pas le temps de	5
-je dois dire que	5
-il y a toujours	5
-je pense que les	5
-je ne veux pas	5
-il se trouve que	5
-je vous dis à	5
+ce qu'on appelle les	5
+qu'il ne faut pas	5
+que ce soit des	5
+il fallait que je	5
+je vous le dis	5
+des gens qui ont	5
+la première fois de	5
+c'est à ce moment	5
+vous en faites pas	5
 de la voiture et	5
-ce que je vous	5
 j'espère que ça vous	5
-partir de là il	5
-quoi que ce soit	5
-y a pas de	5
+c'est vrai que ça	5
+pour la première fois de	5
+est hors de question	5
 au moment où il	5
-voir ce qui se	5
-il n'y a rien	5
-prenez soin de vous	5
-la fin de la	5
-on est sur un	5
-ce qui est très	5
+au milieu de la	5
+voir ce qui se passe	5
+c'est exactement ce que	5
+je pense que j'ai	5
+ce n'est pas un	5
 dans la vie de	5
-qu'est ce qui s'est	5
-on se retrouve très	5
-qu'est ce qui s'est passé	5
-parce que c'est très	5
+que c'est moi qui	5
+pour une nouvelle vidéo	5
 c'est quelqu'un qui a	5
+pense que c'est une	5
 la puce à l'oreille	5
-je me suis rendu	5
-que tu en penses	5
 dans le cadre de	5
-y a eu une	5
-il y a cette	5
+si vous avez des	5
+il faut le dire	5
+de la même manière	5
 des gens qui sont	5
-mais je pense qu'il	5
-a des gens qui	5
-que je trouve que	5
-ça il y a	5
-qui est intéressant c'est	5
-je trouve ça très	5
-il y a eu une	5
-il y a des gens	5
-y a des gens qui	5
+il y a des gens qui	5
+parce que je trouve que	5
+le plus important c'est	5
+qu'est-ce que je peux	5
+que je peux faire	5
+je pense que c'est une	5
 ce qui est intéressant c'est	5
-ce que tu fais	5
-ça n'a pas de	5
+il faut quand même	5
+pas ce qui se	5
 j'ai mis un budget	5
 mis un budget de	5
 que c'est pas encore	5
@@ -303,89 +574,199 @@ j'ai mis un budget de	5
 j'espère que c'est pas encore	5
 il n’y a pas	5
 que c'est ça qui	5
-y a aussi des	5
-en même temps il	5
-tout un tas de	5
-il y a aussi des	5
-comme vous pouvez le	5
-sont en train de	5
-et à chaque fois	5
-de la part de	5
-qui est un peu	5
-est-ce que tu es	5
-parce que tout ça	5
-qui est génial c'est	5
-c'est la même chose	5
+de la plupart des	5
+je ne parle pas	5
+de toute façon on	5
+c'est pas comme ça	5
+tout au long de	5
+je vais y aller	5
+j'ai pas envie de	5
+pas de problème mais	5
+mais il nous faut	5
+et à ce moment	5
+c'est bien ce que	5
+bien ce que je	5
+je vais te dire	5
+dire ce que je	5
+ça me permet de	5
+a été un peu	5
+un petit peu comme	5
+tu peux me dire	5
+que tu vas faire	5
+sûr que ça va	5
+je veux dire c'est	5
+ça n'a pas été	5
+ça veut dire quoi	5
+je sais pas j'ai	5
+dont je me souviens	5
+et à ce moment là	5
+ce que je vais faire	5
+je ne me suis	5
+et moi je me	5
+c'est à cause de	5
+il faut que j'y	5
+la salle de bain	5
+ce qu'on va faire	5
+que c'est un peu	5
+te poser une question	5
+il faut que j'y aille	5
+vous pouvez le constater	5
+un truc un peu	5
+en fait c'est à	5
+fait c'est à dire	5
+comme vous pouvez le constater	5
+non mais c'est pas	5
+et qu'est-ce que tu	5
+ne sais pas comment	5
+je ne sais plus	5
+je ne sais pas comment	5
+ce qui est un	5
+je trouve que ça	5
 la même chose mais	5
-puis il y a	5
-que je n'ai pas	5
-tu es en train	5
-je ne savais pas	5
-ce qui est génial c'est	5
-que ça veut dire	5
+il y a quelque chose de	5
+je vais faire un	5
+la place de la	5
+ça a toujours été	5
+que c'est que cette	5
+ça y est tu	5
+donc on est en	5
+qu'à un moment donné	5
+et ils se sont	5
+moi je ne suis pas	5
+en même temps on	5
+faire la même chose	5
 qui se passe en	5
-ce que vous faites	5
+qui va se passer	5
+est ce que ça	5
+je peux me permettre	5
+tu sais que c'est	5
+beaucoup de choses à	5
+c'est quelque chose qui me	5
 on est d'accord que	5
-il ya plein de	5
-applaudissements musique applaudissements musique	5
-j'ai du mal à	5
-la mise en scène	5
-tout le monde est	5
-mais qu'est ce que	5
+je ne sais pas je	5
 vie de david hockney	5
 je sais pas mais	5
-fait il y a	5
-dans ce que vous	5
-on ne peut plus	5
-je pense que ça	5
-a des choses qui	5
-et à la fin	5
+c'est que je ne	5
+ce que j'ai fait	5
 j'ai envie de dire	5
-y a des choses qui	5
-il y en a un	5
-parce que je sais	5
+si vous en avez	5
+que je peux vous	5
+d'avoir regardé cette vidéo	5
+vous dis à très	5
 on n'a pas besoin de	5
-que ça peut être	5
-un truc comme ça	5
+je vous dis à très	5
 très très très très	5
-ce qu'on va faire	5
+ça va c'est pas	5
+mais en fait ce	5
 en plein milieu de	5
+je sais pas où	5
+ça je suis désolé	5
+lien dans la description	5
+on a fait des	5
+et je vais vous	5
+ça fait longtemps que	5
 moi aussi je fais	5
 aussi je fais des	5
 moi aussi je fais des	5
 aussi je fais des vidéos	5
-on va essayer de	5
-en fait on est	5
-faut que je vous	5
-ça c'est quand même	5
-il ya quand même	5
-je suis sûr que	5
-est-ce que je peux	5
+je me suis pas	5
+est-ce que je pourrais	5
+je n'ai pas envie	5
+de ma vie je	5
+dernière fois que tu	5
+la dernière fois que tu	5
+à chaque fois que je	5
+je me demande si	5
+ce qui veut dire	5
+de l'hôtel de glace	5
+je pense qu'on va	5
+bien sûr que je	5
+c'est une bonne idée	5
+tout se passe bien	5
+c'est moi qui ai	5
+mais c'est pas grave	5
+jeter un coup d'oeil	5
+moi je trouve que	5
+ce n'est pas grave	5
+je veux que tu	5
+sur le point de	5
+qu'est-ce que tu fais là	5
+des choses comme ça	5
+on peut le faire	5
+là c'est un peu	5
+que la plupart des	5
+pour que ce soit	5
+qu'est-ce qu'on va faire	5
+ça va être la	5
+on ne dit pas	5
+c'est vrai que je	5
 je suis pas très	5
 c'est bon c'est bon	5
-elle est un peu	5
-ce que tu veux	5
+moi je me suis	5
+il faut que ça	5
+on va dire que	5
 du coup je me	5
 coup je me suis	5
 la pomme de terre	5
 ça fait du bien	5
-y a quelques années	5
-y a quand même	5
+vous savez ce qui	5
+grâce à la magie	5
+les secrets de fabrication	5
+sur le plateau de	5
+de la mise en	5
+en même temps et	5
+avec xavier francs comme	5
+c'est à dire qu'on	5
+ce que vous avez fait	5
+veut dire que les	5
+ça veut dire que les	5
 faire ce que je	5
-et je me suis dit	5
+mais je sais pas	5
 va faire un petit	5
-au fur et à	5
-fur et à mesure	5
-au fur et à mesure	5
-un petit peu plus	5
-je n'arrive pas à	5
-ça fait des années	5
-je vous propose de	5
-qu'est-ce qui s'est passé	5
-je peux vous dire	5
+et je n'ai pas	5
+un truc que je	5
+se rend compte que	5
+et je trouve ça	5
+tu as eu ce	5
+as eu ce que	5
+eu ce que c'était	5
+tu as eu ce que	5
+as eu ce que c'était	5
+il ya plus de	5
+on a besoin de	5
+ça va je suis	5
+pourquoi est-ce que tu	5
+enfin je veux dire	5
+de faire de la	5
+ce que nous avons	5
+n'a pas le droit de	5
+le monde de la	5
+ce n’est pas un	5
+je suis incapable de	5
+je pense que vous	5
+je t'aime je t'aime	5
+et ce n'est pas	5
+que je suis un	5
+c'est pas grave je	5
+il va falloir que	5
+un petit coup de	5
+je sais que ça	5
+oui je sais que	5
+peux vous dire que	5
+je peux vous dire que	5
+si vous ne voulez	5
+si vous ne voulez pas	5
+je sais pas ce que	5
+si vous pensez que	5
+il me semble que	5
+enfiler votre masque d'orateur	5
+je pense que tu	5
+la distance de la	5
+la constante de hubble	5
 pas si je me	5
 pas si je me rends	5
-vous ne pouvez pas	5
+me permets de vous	5
+je me permets de vous	5
 que le poil est	5
 est-ce que le poil est	5
 par les moteurs de	5

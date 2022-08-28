@@ -28,12 +28,25 @@ for filename in glob("xml/*.xml"):
         xml_root = xml_tree.getroot()
 
         word_list = []
-        for text in xml_root.itertext():
+        for text in xml_root.itertext():  # TODO: phrases spanning two lines of text
             text = unescapeEntities(text)
+            text = text.lower()
+            # TODO: make this exceptions more robust:
+            # check if there are whitespaces before and after, and collapse whitespaces in between
+            text = text.replace("il y a", "il+y+a")  # '+' means we want to count it as one word
+            text = text.replace("il n'y a", "il+n'y+a")
+            text = text.replace("il y en a", "il+y+en+a")
+            text = text.replace("parce que", "parce+que")
+            text = text.replace("qu'est ce", "qu'est-ce")
+            text = text.replace("est ce qu", "est-ce qu")
+            text = text.replace("[musique]", "")
+            text = text.replace("[rires]", "")
+            text = text.replace("[applaudissements]", "")
             for word in text.split():
                 word = word.strip(string.punctuation +
                                   string.digits + '…»«“”€–')
-                word_list.append(word.lower())
+                word = word.replace("+", " ")
+                word_list.append(word)
 
         # returns iterable of tuples
         def make_tuples(n):
